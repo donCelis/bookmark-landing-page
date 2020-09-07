@@ -5,23 +5,62 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
   <title>Frontend Mentor | Bookmark landing page</title>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;500&display=swap">
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
   <link rel="stylesheet" href="./styles/main.css">
 </head>
 <body>
-
-  Features
-  Pricing
-  Contact
-  Login
-
-  A Simple Bookmark Manager
-
-  A clean and simple interface to organize your favourite websites. Open a new 
-  browser tab and see your sites load instantly. Try it for free.
-
-  Get it on Chrome
-  Get it on Firefox
+  <main class="home">
+    <div class="container">
+      <header class="py-4">
+        <nav class="navbar navbar-expand-lg navbar-light">
+          <a href="#" class="navbar-brand"><img src="./images/logo-bookmark.svg" alt="Bookmark"></a>
+          <button class="navbar-toggler" data-toggle="collapse" data-target="#menu" aria-expanded="false">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="menu">
+            <ul class="navbar-nav ml-auto main-menu">
+              <li class="nav-item">
+                <a href="#" class="nav-link">Features</a>
+              </li>
+              <li class="nav-item">
+                <a href="#" class="nav-link">Pricing</a>
+              </li>
+              <li class="nav-item">
+                <a href="#" class="nav-link">Contact</a>
+              </li>
+              <li class="nav-item">
+                <a href="#" class="nav-link active">Login</a>
+              </li>
+            </ul>
+          </div>
+        </nav>
+      </header>
+      <section class="row py-4 home__content">
+        <div class="col-md-12 col-lg-6">
+          <article class="home__content__text">
+            <h1>
+              A Simple Bookmark Manager
+            </h1>
+            <p class="my-4">
+              A clean and simple interface to organize your favourite websites. Open a new 
+              browser tab and see your sites load instantly. Try it for free.
+            </p>     
+            <button class="btn-active">
+              Get it on Chrome
+            </button>
+            <button class="btn-default">
+              Get it on Firefox
+            </button>     
+          </article>
+        </div>
+        <div class="col-md-12 col-lg-6">
+          <img class="img-fluid" src="./images/illustration-hero.svg" alt="illustration-hero">
+        </div>
+      </section>
+    
+    </div>
+  </main>
 
   Features
 
