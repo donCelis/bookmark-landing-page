@@ -57,6 +57,9 @@ body{
 }
 
 /* Content Home */
+.home__content{
+  align-items: center;
+}
 .home__content__text p{
   color: var(--gray);
   font-weight: var(--w400);
@@ -91,7 +94,16 @@ body{
 
 /* Responsive */
 @media screen and (max-width: 991px){
+  /* menu */
   .navbar-light .navbar-nav .nav-link.active{
     margin-left: 0;
+  }
+  /* content home */
+  .home__content div:first-child{
+    order: 2;
+    text-align: center;
+  }
+  .home__content div:last-child{
+    order: 1;
   }
 }

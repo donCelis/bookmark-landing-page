@@ -1,1 +1,119 @@
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="657" height="466"><defs><filter id="a" width="118%" height="126.9%" x="-9%" y="-5.7%" filterUnits="objectBoundingBox"><feOffset dy="2" in="SourceAlpha" result="shadowOffsetOuter1"/><feGaussianBlur in="shadowOffsetOuter1" result="shadowBlurOuter1" stdDeviation="2"/><feColorMatrix in="shadowBlurOuter1" result="shadowMatrixOuter1" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.5 0"/><feMerge><feMergeNode in="shadowMatrixOuter1"/><feMergeNode in="SourceGraphic"/></feMerge></filter><rect id="c" width="578" height="385" rx="26"/><filter id="b" width="126%" height="139%" x="-13%" y="-11.7%" filterUnits="objectBoundingBox"><feOffset dy="30" in="SourceAlpha" result="shadowOffsetOuter1"/><feGaussianBlur in="shadowOffsetOuter1" result="shadowBlurOuter1" stdDeviation="20"/><feColorMatrix in="shadowBlurOuter1" values="0 0 0 0 0.18243335 0 0 0 0 0.230632694 0 0 0 0 0.506057518 0 0 0 0.200120192 0"/></filter><linearGradient id="d" x1="99.013%" x2="2.544%" y1="71.675%" y2="29.014%"><stop offset="0%" stop-color="#151515"/><stop offset="100%" stop-color="#3D3D3D"/></linearGradient><rect id="e" width="536" height="346" y="3" rx="8"/></defs><g fill="none" fill-rule="evenodd" filter="url(#a)" transform="translate(39 9)"><g transform="translate(.5 .5)"><g fill-rule="nonzero"><use fill="#000" filter="url(#b)" xlink:href="#c"/><use fill="#777" xlink:href="#c"/></g><rect width="574.23" height="381.865" x="2" y="2" fill="url(#d)" fill-rule="nonzero" rx="25"/><g transform="translate(21.03 16.303)"><rect width="471.463" height="353.756" x="33" fill="#2A2A2A" fill-rule="nonzero" opacity=".1" rx="5"/><mask id="f" fill="#fff"><use xlink:href="#e"/></mask><use fill="#E8EAF6" fill-rule="nonzero" xlink:href="#e"/><g mask="url(#f)"><path fill="#5267DF" d="M-3.53 3.197h547v59h-547z"/><g transform="translate(22.47 17.197)" fill="#FFF"><circle cx="16" cy="16" r="16" opacity=".245"/><circle cx="477" cy="16" r="16" opacity=".104"/><g transform="translate(47 6)"><rect width="120" height="6" opacity=".75" rx="3"/><rect width="64" height="6" y="14" opacity=".25" rx="3"/></g></g></g><g mask="url(#f)"><g transform="translate(57 96)"><rect width="261" height="316" fill="#FFF" rx="8"/><rect width="128" height="316" x="295" fill="#FFF" rx="8"/><rect width="120" height="6" x="78.47" y="38.197" fill="#242A45" opacity=".5" rx="3"/></g></g></g></g><g transform="translate(110 135)"><circle cx="16" cy="26" r="16" fill="#F98E5D"/><rect width="88" height="6" x="284" fill="#242A45" opacity=".25" rx="3"/><rect width="88" height="6" x="284" y="20" fill="#242A45" opacity=".25" rx="3"/><rect width="88" height="6" x="284" y="40" fill="#242A45" opacity=".25" rx="3"/><rect width="88" height="6" x="284" y="60" fill="#242A45" opacity=".25" rx="3"/><rect width="88" height="6" x="284" y="94" fill="#242A45" opacity=".25" rx="3"/><rect width="88" height="6" x="284" y="114" fill="#242A45" opacity=".25" rx="3"/><rect width="88" height="6" x="284" y="134" fill="#242A45" opacity=".25" rx="3"/><rect width="64" height="6" x="47" y="30" fill="#242A45" opacity=".25" rx="3"/></g><g transform="translate(110 201)"><circle cx="16" cy="16" r="16" fill="#6AC6D6"/><rect width="120" height="6" x="47" y="6" fill="#242A45" opacity=".5" rx="3"/><rect width="64" height="6" x="47" y="20" fill="#242A45" opacity=".25" rx="3"/></g><g transform="translate(110 257)"><circle cx="16" cy="16" r="16" fill="#A47ED4"/><rect width="120" height="6" x="47" y="6" fill="#242A45" opacity=".5" rx="3"/><rect width="64" height="6" x="47" y="20" fill="#242A45" opacity=".25" rx="3"/></g><g transform="translate(110 313)"><circle cx="16" cy="16" r="16" fill="#EC7878"/><rect width="120" height="6" x="47" y="6" fill="#242A45" opacity=".5" rx="3"/><rect width="64" height="6" x="47" y="20" fill="#242A45" opacity=".25" rx="3"/></g></g></svg>
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 24.3.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 586.6 404.4" style="enable-background:new 0 0 586.6 404.4;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:url(#SVGID_1_);}
+	.st1{opacity:0.1;fill:#2A2A2A;enable-background:new    ;}
+	.st2{fill:#E8EAF6;}
+	.st3{filter:url(#Adobe_OpacityMaskFilter);}
+	.st4{fill-rule:evenodd;clip-rule:evenodd;fill:#FFFFFF;}
+	.st5{mask:url(#f_1_);}
+	.st6{fill-rule:evenodd;clip-rule:evenodd;fill:#5267DF;}
+	.st7{opacity:0.245;fill-rule:evenodd;clip-rule:evenodd;fill:#FFFFFF;enable-background:new    ;}
+	.st8{opacity:0.104;fill-rule:evenodd;clip-rule:evenodd;fill:#FFFFFF;enable-background:new    ;}
+	.st9{opacity:0.75;fill-rule:evenodd;clip-rule:evenodd;fill:#FFFFFF;enable-background:new    ;}
+	.st10{opacity:0.25;fill-rule:evenodd;clip-rule:evenodd;fill:#FFFFFF;enable-background:new    ;}
+	.st11{filter:url(#Adobe_OpacityMaskFilter_1_);}
+	.st12{mask:url(#f_2_);}
+	.st13{opacity:0.5;fill-rule:evenodd;clip-rule:evenodd;fill:#242A45;enable-background:new    ;}
+	.st14{fill-rule:evenodd;clip-rule:evenodd;fill:#F98E5D;}
+	.st15{opacity:0.25;fill-rule:evenodd;clip-rule:evenodd;fill:#242A45;enable-background:new    ;}
+	.st16{fill-rule:evenodd;clip-rule:evenodd;fill:#6AC6D6;}
+	.st17{fill-rule:evenodd;clip-rule:evenodd;fill:#A47ED4;}
+	.st18{fill-rule:evenodd;clip-rule:evenodd;fill:#EC7878;}
+</style>
+<g transform="translate(39 9)">
+	<g transform="translate(.5 .5)">
+		
+			<linearGradient id="SVGID_1_" gradientUnits="userSpaceOnUse" x1="-256.3858" y1="607.3904" x2="-257.3505" y2="607.8171" gradientTransform="matrix(574.23 0 0 -381.865 147759.7812 232216.8438)">
+			<stop  offset="0" style="stop-color:#151515"/>
+			<stop  offset="1" style="stop-color:#3D3D3D"/>
+		</linearGradient>
+		<path class="st0" d="M-8.2,2H516c13.8,0,25,11.2,25,25v331.9c0,13.8-11.2,25-25,25H-8.2c-13.8,0-25-11.2-25-25V27
+			C-33.2,13.2-22,2-8.2,2z"/>
+		<g transform="translate(21.03 16.303)">
+			<path class="st1" d="M2.8,0h461.5c2.8,0,5,2.2,5,5v343.8c0,2.8-2.2,5-5,5H2.8c-2.8,0-5-2.2-5-5V5C-2.2,2.2,0,0,2.8,0z"/>
+			<g>
+				<path id="e_1_" class="st2" d="M-27.2,3h520c4.4,0,8,3.6,8,8v330c0,4.4-3.6,8-8,8h-520c-4.4,0-8-3.6-8-8V11
+					C-35.2,6.6-31.6,3-27.2,3z"/>
+			</g>
+			<defs>
+				<filter id="Adobe_OpacityMaskFilter" filterUnits="userSpaceOnUse" x="-38.7" y="3.2" width="547" height="59">
+					<feColorMatrix  type="matrix" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 1 0"/>
+				</filter>
+			</defs>
+			<mask maskUnits="userSpaceOnUse" x="-38.7" y="3.2" width="547" height="59" id="f_1_">
+				<g class="st3">
+					<path id="e_2_" class="st4" d="M-27.2,3h520c4.4,0,8,3.6,8,8v330c0,4.4-3.6,8-8,8h-520c-4.4,0-8-3.6-8-8V11
+						C-35.2,6.6-31.6,3-27.2,3z"/>
+				</g>
+			</mask>
+			<g class="st5">
+				<path class="st6" d="M-38.7,3.2h547v59h-547L-38.7,3.2z"/>
+				<g transform="translate(22.47 17.197)">
+					<circle class="st7" cx="-19.2" cy="16" r="16"/>
+					<circle class="st8" cx="441.8" cy="16" r="16"/>
+					<g transform="translate(47 6)">
+						<path class="st9" d="M-32.2,0h114c1.7,0,3,1.3,3,3l0,0c0,1.7-1.3,3-3,3h-114c-1.7,0-3-1.3-3-3l0,0C-35.2,1.3-33.9,0-32.2,0z"
+							/>
+						<path class="st10" d="M-32.2,14h58c1.7,0,3,1.3,3,3l0,0c0,1.7-1.3,3-3,3h-58c-1.7,0-3-1.3-3-3l0,0C-35.2,15.3-33.9,14-32.2,14
+							z"/>
+					</g>
+				</g>
+			</g>
+			<defs>
+				<filter id="Adobe_OpacityMaskFilter_1_" filterUnits="userSpaceOnUse" x="21.8" y="96" width="423" height="316">
+					<feColorMatrix  type="matrix" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 1 0"/>
+				</filter>
+			</defs>
+			<mask maskUnits="userSpaceOnUse" x="21.8" y="96" width="423" height="316" id="f_2_">
+				<g class="st11">
+					<path id="e_3_" class="st4" d="M-27.2,3h520c4.4,0,8,3.6,8,8v330c0,4.4-3.6,8-8,8h-520c-4.4,0-8-3.6-8-8V11
+						C-35.2,6.6-31.6,3-27.2,3z"/>
+				</g>
+			</mask>
+			<g class="st12">
+				<g transform="translate(57 96)">
+					<path class="st4" d="M-27.2,0h245c4.4,0,8,3.6,8,8v300c0,4.4-3.6,8-8,8h-245c-4.4,0-8-3.6-8-8V8C-35.2,3.6-31.6,0-27.2,0z"/>
+					<path class="st4" d="M267.8,0h112c4.4,0,8,3.6,8,8v300c0,4.4-3.6,8-8,8h-112c-4.4,0-8-3.6-8-8V8C259.8,3.6,263.4,0,267.8,0z"/>
+					<path class="st13" d="M46.3,38.2h114c1.7,0,3,1.3,3,3l0,0c0,1.7-1.3,3-3,3h-114c-1.7,0-3-1.3-3-3l0,0
+						C43.3,39.5,44.6,38.2,46.3,38.2z"/>
+				</g>
+			</g>
+		</g>
+	</g>
+	<g transform="translate(110 135)">
+		<circle class="st14" cx="-19.2" cy="26" r="16"/>
+		<path class="st15" d="M251.8,0h82c1.7,0,3,1.3,3,3l0,0c0,1.7-1.3,3-3,3h-82c-1.7,0-3-1.3-3-3l0,0C248.8,1.3,250.1,0,251.8,0z"/>
+		<path class="st15" d="M251.8,20h82c1.7,0,3,1.3,3,3l0,0c0,1.7-1.3,3-3,3h-82c-1.7,0-3-1.3-3-3l0,0C248.8,21.3,250.1,20,251.8,20z"
+			/>
+		<path class="st15" d="M251.8,40h82c1.7,0,3,1.3,3,3l0,0c0,1.7-1.3,3-3,3h-82c-1.7,0-3-1.3-3-3l0,0C248.8,41.3,250.1,40,251.8,40z"
+			/>
+		<path class="st15" d="M251.8,60h82c1.7,0,3,1.3,3,3l0,0c0,1.7-1.3,3-3,3h-82c-1.7,0-3-1.3-3-3l0,0C248.8,61.3,250.1,60,251.8,60z"
+			/>
+		<path class="st15" d="M251.8,94h82c1.7,0,3,1.3,3,3l0,0c0,1.7-1.3,3-3,3h-82c-1.7,0-3-1.3-3-3l0,0C248.8,95.3,250.1,94,251.8,94z"
+			/>
+		<path class="st15" d="M251.8,114h82c1.7,0,3,1.3,3,3l0,0c0,1.7-1.3,3-3,3h-82c-1.7,0-3-1.3-3-3l0,0
+			C248.8,115.3,250.1,114,251.8,114z"/>
+		<path class="st15" d="M251.8,134h82c1.7,0,3,1.3,3,3l0,0c0,1.7-1.3,3-3,3h-82c-1.7,0-3-1.3-3-3l0,0
+			C248.8,135.3,250.1,134,251.8,134z"/>
+		<path class="st15" d="M14.8,30h58c1.7,0,3,1.3,3,3l0,0c0,1.7-1.3,3-3,3h-58c-1.7,0-3-1.3-3-3l0,0C11.8,31.3,13.1,30,14.8,30z"/>
+	</g>
+	<g transform="translate(110 201)">
+		<circle class="st16" cx="-19.2" cy="16" r="16"/>
+		<path class="st13" d="M14.8,6h114c1.7,0,3,1.3,3,3l0,0c0,1.7-1.3,3-3,3h-114c-1.7,0-3-1.3-3-3l0,0C11.8,7.3,13.1,6,14.8,6z"/>
+		<path class="st15" d="M14.8,20h58c1.7,0,3,1.3,3,3l0,0c0,1.7-1.3,3-3,3h-58c-1.7,0-3-1.3-3-3l0,0C11.8,21.3,13.1,20,14.8,20z"/>
+	</g>
+	<g transform="translate(110 257)">
+		<circle class="st17" cx="-19.2" cy="16" r="16"/>
+		<path class="st13" d="M14.8,6h114c1.7,0,3,1.3,3,3l0,0c0,1.7-1.3,3-3,3h-114c-1.7,0-3-1.3-3-3l0,0C11.8,7.3,13.1,6,14.8,6z"/>
+		<path class="st15" d="M14.8,20h58c1.7,0,3,1.3,3,3l0,0c0,1.7-1.3,3-3,3h-58c-1.7,0-3-1.3-3-3l0,0C11.8,21.3,13.1,20,14.8,20z"/>
+	</g>
+	<g transform="translate(110 313)">
+		<circle class="st18" cx="-19.2" cy="16" r="16"/>
+		<path class="st13" d="M14.8,6h114c1.7,0,3,1.3,3,3l0,0c0,1.7-1.3,3-3,3h-114c-1.7,0-3-1.3-3-3l0,0C11.8,7.3,13.1,6,14.8,6z"/>
+		<path class="st15" d="M14.8,20h58c1.7,0,3,1.3,3,3l0,0c0,1.7-1.3,3-3,3h-58c-1.7,0-3-1.3-3-3l0,0C11.8,21.3,13.1,20,14.8,20z"/>
+	</g>
+</g>
+</svg>
