@@ -22,6 +22,9 @@ body{
   font-size: var(--fs);
   color: var(--dark);
 }
+.ease{
+  transition: all ease 0.2s;
+}
 /* Navigation */
 .navbar-nav{
   align-items: center;
@@ -34,7 +37,6 @@ body{
   font-size: 0.8em;
   padding: 0.5rem;
   letter-spacing: 2px;
-  transition: all ease 0.2s;
 }
 .navbar-light .navbar-nav .nav-link:hover{
   color: var(--soft-red);
