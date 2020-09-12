@@ -28,6 +28,9 @@ body {
 p {
   color: var(--gray);
 }
+.btn.focus, .btn:focus{
+  box-shadow: 0 0 0 0 transparent;
+}
 .ease {
   transition: all ease 0.2s;
 }
@@ -117,6 +120,25 @@ p {
 }
 .extension__content div:last-child article {
   margin-top: 6rem;
+}
+/* Questions content */
+.questions .card{
+  border-left: 0;
+  border-right: 0;
+  border-radius: 0;
+}
+.questions .card .card-header{
+  background-color: transparent;
+}
+.questions .card .btn{
+  position: relative;
+}
+.questions .card .btn::before{
+  content: "v";
+  position: absolute;
+  right: 0;
+  top: 50%;
+  transform: translateY(-50%);
 }
 
 /* Responsive */
