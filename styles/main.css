@@ -28,14 +28,15 @@ body {
 p {
   color: var(--gray);
 }
-.btn.focus, .btn:focus{
+.btn.focus,
+.btn:focus {
   box-shadow: 0 0 0 0 transparent;
 }
 .ease {
   transition: all ease 0.2s;
 }
 /* Navigation */
-.navbar{
+.navbar {
   padding: 0.5rem 0;
 }
 .navbar-nav {
@@ -125,21 +126,21 @@ p {
   margin-top: 6rem;
 }
 /* Questions content */
-.questions .card{
+.questions .card {
   border-left: 0;
   border-right: 0;
   border-radius: 0;
 }
-.questions .card .card-header{
+.questions .card .card-header {
   background-color: transparent;
 }
-.questions .card .btn{
+.questions .card .btn {
   position: relative;
 }
-.questions .card .btn:hover{
+.questions .card .btn:hover {
   color: var(--soft-red);
 }
-.questions .card .btn::before{
+.questions .card .btn.arrow-down::before {
   content: "";
   background: url("../images/icon-arrow.svg") no-repeat center;
   background-size: contain;
@@ -151,15 +152,27 @@ p {
   top: 50%;
   transform: translateY(-50%);
 }
+.questions .card .btn.arrow-up::before {
+  content: "";
+  background: url("../images/icon-arrow.svg") no-repeat center;
+  background-size: contain;
+  width: 1rem;
+  height: 1rem;
+  vertical-align: middle;
+  position: absolute;
+  right: 0;
+  top: 50%;
+  transform: translateY(-50%) rotate(180deg);
+}
 /* Call to action */
-.call-to-action{
+.call-to-action {
   background: var(--soft-blue);
   color: var(--neutral);
 }
-.call-to-action p{
+.call-to-action p {
   color: var(--neutral);
 }
-.call-to-action__btn{
+.call-to-action__btn {
   background: var(--soft-red);
   border: 0;
   color: var(--neutral);
@@ -168,21 +181,21 @@ p {
   padding: 0.375rem 0.75rem;
 }
 /* Footer */
-footer{
+footer {
   background: var(--dark);
   color: var(--neutral);
 }
-footer nav{
+footer nav {
   margin-left: 3rem;
 }
-footer a{
+footer a {
   color: var(--neutral);
 }
-footer a:hover{
+footer a:hover {
   text-decoration: none;
   color: var(--soft-red);
 }
-.brand img{
+.brand img {
   filter: invert(1);
 }
 
@@ -213,10 +226,10 @@ footer a:hover{
   .features__content .nav-pills {
     flex-direction: column;
   }
-  footer .d-flex{
+  footer .d-flex {
     flex-direction: column;
   }
-  footer nav{
+  footer nav {
     text-align: center;
     display: flex;
     flex-direction: column;
