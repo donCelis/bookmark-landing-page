@@ -53,7 +53,7 @@
                   <a href="#extension" class="nav-link ease">Extension</a>
                 </li>
                 <li class="nav-item">
-                  <a href="#" class="nav-link ease">Contact</a>
+                  <a href="#questions" class="nav-link ease">Contact</a>
                 </li>
                 <li class="nav-item">
                   <a href="#" class="nav-link ease active">Login</a>
@@ -250,7 +250,7 @@
       </div>
     </section>
 
-    <section class="questions py-5">
+    <section class="questions py-5" id="questions">
       <div class="container">
         <article class="text-center py-3">
           <h3>Frequently Asked Questions</h3>
@@ -267,7 +267,7 @@
                   <section class="card-header">
                     <h2 class="mb-0">
                       <button
-                        class="btn btn-block text-left arrow-down"
+                        class="btn btn-block text-left"
                         data-toggle="collapse"
                         data-target="#q1"
                       >
@@ -276,7 +276,7 @@
                       </button>
                     </h2>
                   </section>
-                  <section class="collapse" id="q1">
+                  <section class="collapse" id="q1" data-parent="#accordion">
                     <div class="card-body">
                       <!-- Answer 1 -->
                       <p>
@@ -291,7 +291,7 @@
                   <section class="card-header">
                     <h2 class="mb-0">
                       <button
-                        class="btn btn-block text-left arrow-down"
+                        class="btn btn-block text-left"
                         data-toggle="collapse"
                         data-target="#q2"
                       >
@@ -300,7 +300,7 @@
                       </button>
                     </h2>
                   </section>
-                  <section class="collapse" id="q2">
+                  <section class="collapse" id="q2" data-parent="#accordion">
                     <div class="card-body">
                       <!-- Answer 2 -->
                       <p>
@@ -319,7 +319,7 @@
                   <section class="card-header">
                     <h2 class="mb-0">
                       <button
-                        class="btn btn-block text-left arrow-down"
+                        class="btn btn-block text-left"
                         data-toggle="collapse"
                         data-target="#q3"
                       >
@@ -328,7 +328,7 @@
                       </button>
                     </h2>
                   </section>
-                  <section class="collapse" id="q3">
+                  <section class="collapse" id="q3" data-parent="#accordion">
                     <div class="card-body">
                       <!-- Answer 3 -->
                       <p>
@@ -345,7 +345,7 @@
                   <section class="card-header">
                     <h2 class="mb-0">
                       <button
-                        class="btn btn-block text-left arrow-down"
+                        class="btn btn-block text-left"
                         data-toggle="collapse"
                         data-target="#q4"
                       >
@@ -354,7 +354,7 @@
                       </button>
                     </h2>
                   </section>
-                  <section class="collapse" id="q4">
+                  <section class="collapse" id="q4" data-parent="#accordion">
                     <div class="card-body">
                       <!-- Answer 4 -->
                       <p>
@@ -384,20 +384,20 @@
                 Stay up-to-date with what <br />
                 we’re doing
               </h3>
-              <form class="row align-items-stretch">
-                <div class="col-sm-12 col-md-8 col-lg-8 mb-3">
+              <form class="row align-items-center">
+                <div class="col-sm-12 col-md-8 col-lg-8">
                   <div class="form-group">
                     <input
                       type="email"
                       class="form-control"
-                      placeholder="@Email"
+                      placeholder="Enter your email address"
                       required
                     />
                   </div>
                 </div>
-                <div class="col-sm-12 col-md-4 col-lg-4 mb-3">
+                <div class="col-sm-12 col-md-4 col-lg-4">
                   <div class="form-group">
-                    <button class="call-to-action__btn">Contact Us</button>
+                    <button class="call-to-action__btn ease">Contact Us</button>
                   </div>
                 </div>
               </form>
@@ -410,7 +410,9 @@
       <div class="container">
         <div class="d-flex align-items-center justify-content-between">
           <div class="brand d-flex align-items-center">
-            <img src="./images/logo-bookmark.svg" alt="logo-bookmark" />
+            <a href="#">
+              <img src="./images/logo-bookmark-white.svg" alt="logo-bookmark" />
+            </a>
             <nav>
               <a class="mx-2 p-2 ease" href="#">Features</a>
               <a class="mx-2 p-2 ease" href="#">Pricing</a>
@@ -419,10 +421,10 @@
           </div>
           <div class="socials">
             <a class="mx-3 ease" href="#"
-              ><img src="./images/icon-facebook.svg" alt="facebook"
+              ><img class="socials__icon" src="./images/icon-facebook.svg" alt="facebook"
             /></a>
             <a class="mx-3 ease" href="#"
-              ><img src="./images/icon-twitter.svg" alt="twitter"
+              ><img class="socials__icon" src="./images/icon-twitter.svg" alt="twitter"
             /></a>
           </div>
         </div>

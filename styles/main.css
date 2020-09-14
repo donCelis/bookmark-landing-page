@@ -140,7 +140,7 @@ p {
 .questions .card .btn:hover {
   color: var(--soft-red);
 }
-.questions .card .btn.arrow-down::before {
+.questions .card .btn::before {
   content: "";
   background: url("../images/icon-arrow.svg") no-repeat center;
   background-size: contain;
@@ -152,17 +152,12 @@ p {
   top: 50%;
   transform: translateY(-50%);
 }
-.questions .card .btn.arrow-up::before {
-  content: "";
-  background: url("../images/icon-arrow.svg") no-repeat center;
-  background-size: contain;
-  width: 1rem;
-  height: 1rem;
-  vertical-align: middle;
-  position: absolute;
-  right: 0;
-  top: 50%;
+.questions .card .btn.active{
+  color: var(--soft-red);
+}
+.questions .card .btn.active::before {
   transform: translateY(-50%) rotate(180deg);
+  filter: hue-rotate(115deg);
 }
 /* Call to action */
 .call-to-action {
@@ -174,11 +169,16 @@ p {
 }
 .call-to-action__btn {
   background: var(--soft-red);
-  border: 0;
   color: var(--neutral);
   width: 100%;
   border-radius: 4px;
   padding: 0.375rem 0.75rem;
+  border: 1px solid transparent;
+}
+.call-to-action__btn:hover{
+  background: var(--neutral);
+  color: var(--soft-red);
+  border: 1px solid var(--soft-red);
 }
 /* Footer */
 footer {
@@ -194,9 +194,6 @@ footer a {
 footer a:hover {
   text-decoration: none;
   color: var(--soft-red);
-}
-.brand img {
-  filter: invert(1);
 }
 
 /* Responsive */
