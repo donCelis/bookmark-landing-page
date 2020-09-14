@@ -35,6 +35,9 @@ p {
   transition: all ease 0.2s;
 }
 /* Navigation */
+.navbar{
+  padding: 0.5rem 0;
+}
 .navbar-nav {
   align-items: center;
 }
@@ -133,12 +136,54 @@ p {
 .questions .card .btn{
   position: relative;
 }
+.questions .card .btn:hover{
+  color: var(--soft-red);
+}
 .questions .card .btn::before{
-  content: "v";
+  content: "";
+  background: url("../images/icon-arrow.svg") no-repeat center;
+  background-size: contain;
+  width: 1rem;
+  height: 1rem;
+  vertical-align: middle;
   position: absolute;
   right: 0;
   top: 50%;
   transform: translateY(-50%);
+}
+/* Call to action */
+.call-to-action{
+  background: var(--soft-blue);
+  color: var(--neutral);
+}
+.call-to-action p{
+  color: var(--neutral);
+}
+.call-to-action__btn{
+  background: var(--soft-red);
+  border: 0;
+  color: var(--neutral);
+  width: 100%;
+  border-radius: 4px;
+  padding: 0.375rem 0.75rem;
+}
+/* Footer */
+footer{
+  background: var(--dark);
+  color: var(--neutral);
+}
+footer nav{
+  margin-left: 3rem;
+}
+footer a{
+  color: var(--neutral);
+}
+footer a:hover{
+  text-decoration: none;
+  color: var(--soft-red);
+}
+.brand img{
+  filter: invert(1);
 }
 
 /* Responsive */
@@ -167,6 +212,17 @@ p {
 @media screen and (max-width: 768px) {
   .features__content .nav-pills {
     flex-direction: column;
+  }
+  footer .d-flex{
+    flex-direction: column;
+  }
+  footer nav{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    margin-left: 0;
+    text-transform: uppercase;
+    margin: 2rem 0;
   }
 }
 
