@@ -5,10 +5,8 @@ accordion.addEventListener("click", (e) => {
     ds = element.dataset;
 
   if (ds.toggle === "collapse") {
-    if (element.classList.value.includes("arrow-down")) {
-      element.classList.replace("arrow-down", "arrow-up");
-    } else {
-      element.classList.replace("arrow-up", "arrow-down");
+    if (element.classList.contains("arrow-down")) {
+      element.classList.toggle("arrow-up");
     }
 
     /* const path = accordion.getElementsByClassName("btn");
