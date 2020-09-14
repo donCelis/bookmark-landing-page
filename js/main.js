@@ -6,15 +6,19 @@ accordion.addEventListener("click", (e) => {
 
   if (ds.toggle === "collapse") {
     if (element.classList.value.includes("arrow-down")) {
-      element.classList.toogle("arrow-up");
-    } 
+      element.classList.replace("arrow-down", "arrow-up");
+    } else {
+      element.classList.replace("arrow-up", "arrow-down");
+    }
 
-    const path = accordion.getElementsByClassName("btn");
+    /* const path = accordion.getElementsByClassName("btn");
     for (const iterator of path) {
       let index = iterator.classList.value.includes("arrow-down");
       if (index === true) {
-        iterator.classList.toogle("arrow-up");
+        iterator.classList.replace("arrow-down", "arrow-up");
+      } else {
+        iterator.classList.replace("arrow-up", "arrow-down");
       }
-    }
+    } */
   }
 });
